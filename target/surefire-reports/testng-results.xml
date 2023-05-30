@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-30T14:17:33 CDT" name="Regression" finished-at="2023-05-30T14:18:11 CDT" duration-ms="37875">
+    <groups>
+    </groups>
+    <test started-at="2023-05-30T14:17:33 CDT" name="All Test" finished-at="2023-05-30T14:18:11 CDT" duration-ms="37875">
+      <class name="scripts.KijijiCaScripts">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.KijijiCaScripts@79d8407f]" started-at="2023-05-30T14:17:33 CDT" name="setup" finished-at="2023-05-30T14:17:38 CDT" duration-ms="5000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateCarsComSignInPageForm()[pri:1, instance:scripts.KijijiCaScripts@79d8407f]" started-at="2023-05-30T14:17:38 CDT" name="ValidateCarsComSignInPageForm" description="Validate Kijiji.ca Sign in page form" finished-at="2023-05-30T14:17:56 CDT" duration-ms="18294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCarsComSignInPageForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts.KijijiCaScripts@79d8407f]" started-at="2023-05-30T14:17:56 CDT" name="tearDown" finished-at="2023-05-30T14:17:57 CDT" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts.KijijiCaScripts@79d8407f]" started-at="2023-05-30T14:17:57 CDT" name="setup" finished-at="2023-05-30T14:17:59 CDT" duration-ms="2120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateUserCannotSignInToKijijiCaWithInvalidCredentials()[pri:2, instance:scripts.KijijiCaScripts@79d8407f]" started-at="2023-05-30T14:17:59 CDT" name="ValidateUserCannotSignInToKijijiCaWithInvalidCredentials" description="Validate user cannot sign in to Kijiji.ca with invalid credentials" finished-at="2023-05-30T14:18:11 CDT" duration-ms="11984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUserCannotSignInToKijijiCaWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts.KijijiCaScripts@79d8407f]" started-at="2023-05-30T14:18:11 CDT" name="tearDown" finished-at="2023-05-30T14:18:11 CDT" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts.KijijiCaScripts -->
+    </test> <!-- All Test -->
+  </suite> <!-- Regression -->
+</testng-results>
